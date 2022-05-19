@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script>
+            var ourRequest = new XMLHttpRequest  () ;
+            ourRequest.open('GET', 'https://learnwebcode.github.io/json-example/animals-1.json')
+
+            ourRequest.onload = function() {
+                var ourData = JSON.parse(ourRequest.responseText)
+
+                for(i = 0; i < ourData.length; i++) {
+                    $(".animals").append(ourData[i].name + "<br>");
+                };
+            };
+           
+
+            
+            ourRequest.send();
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <div class="animals"></div>
+
+    </body>
+</html>

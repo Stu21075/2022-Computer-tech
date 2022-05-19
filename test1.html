@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <title> Show and Hide</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <script>
+            $(document).ready(function(){
+                $(".hide-btn").click(function(){
+                    $("p").hide(2000)
+                
+                });
+            
+
+            $(".show-btn").click(function(){
+                $("p").show(2000)
+            });
+        
+        });
+        
+           
+
+        </script>
+    <script>
+         
+         $(document).ready(function(){
+                $("#btn1").click(function(){
+                  $("p").append(" <b> This line is added</b>.");  
+              
+              });
+
+        });
+
+    </script>
+     <p>hi</p>
+    
+     <button type="button" class="hide-btn">hide</button>
+     <button type="button" class="show-btn">show</button>
+
+        <p></p>
+    <button id="btn1">Append Button</button>
+
+
+
+
+    </body>
+
+
+
+
+
+</html>

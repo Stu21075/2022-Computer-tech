@@ -1,16 +1,19 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/2022 Scripts/States For Enemy/IdleState.cs">
+﻿<Properties StartupConfiguration="{44806193-AE74-CD7F-001A-B02EA81CBDB2}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/2022 Scripts/EnemySpawners/EnemySpawner.cs">
     <Files>
-      <File FileName="Assets/2022 Scripts/ThirdpersonMovementScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/2022 Scripts/States For Enemy/IdleState.cs" Line="14" Column="12" />
-      <File FileName="Assets/2022 Scripts/States For Enemy/ChaseState.cs" />
-      <File FileName="Assets/2022 Scripts/States For Enemy/AttackState.cs" />
-      <File FileName="Assets/2022 Scripts/SceneSwitch.cs" />
+      <File FileName="Assets/2022 Scripts/EnemySpawners/EnemySpawner.cs" Line="1" Column="2" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="2022 Project" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7e4e44ac-23e4-43af-84d8-22a1bdb12c85" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b0a17a41-ab42-48dc-93f1-1b8d8a21241a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
